@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/cart.css">
+    <title>Online Store</title>
+</head>
+<body>
+    <h1>My awesome online store</h1>
+    <div class="input-product">
+        <input type="text" name="Product" id="txtProduct" value="laptop">
+        <button onclick="addProduct()">Add to the Cart</button>
+    </div>
+
+    <div class="show-list">
+        <h2>Products in the cart 🛒 <sup id="length-products"></sup></h2>
+        <ul id="list-products">
+
+        </ul>
+    </div>
+    <script src="../scripts/cart.js"></script>
+</body>
+</html>
