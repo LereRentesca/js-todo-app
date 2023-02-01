@@ -1,0 +1,24 @@
+body{
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+}
+
+.instructions{
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.display{
+    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
