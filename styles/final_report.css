@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+h4{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    background-color: slateblue;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.subtitle{
+    background-color: slateblue;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    margin: 0 auto;
+}
+
+.input-product{
+    margin: 170px 150px auto 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-product input{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.input-product button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+.input-product button:hover{
+    background-color: aquamarine;
+}
+
+.to-do-list{
+    margin-top: 180px;
+}
+
+.to-do-item{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
