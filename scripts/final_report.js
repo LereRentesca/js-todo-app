@@ -6,7 +6,6 @@ function addProduct(){
     productCart.push(productName);
     display(productName);
     document.getElementById("txtProduct").value="";
-    updateNumberProducts();
 }
 
 function display(newProduct){
@@ -22,18 +21,13 @@ function display(newProduct){
     prodID++;
 }
 
-function updateNumberProducts(){
-    document.getElementById("length-products").innerHTML=productCart.length;
-}
 
 function deleteProduct(id){
     document.getElementById(id).remove();
     productCart.pop();
-    updateNumberProducts();
 }
 
 function init(){
     console.log("Init");
-    updateNumberProducts();
 }
 window.onload=init; //Wait to render the html
