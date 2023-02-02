@@ -32,9 +32,7 @@ body{
     background-color: slateblue;
     width: 100%;
     position: absolute;
-    top: 52%;
-    left: 0;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 
 .input-product{
@@ -64,7 +62,7 @@ body{
 }
 
 .to-do-list{
-    margin-top: 180px;
+    margin-top: 170px;
 }
 
 .to-do-item{
@@ -73,4 +71,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    border-radius: 30px;
 }
